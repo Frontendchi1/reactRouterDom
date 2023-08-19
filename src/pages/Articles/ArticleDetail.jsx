@@ -8,7 +8,7 @@ function ArticleDetail() {
    const { data: article, error, isPending } = useFetch(url)
    return (
       <div className='article-container'>
-         {isPending && <h3>Loading...</h3>}
+         {isPending && <h3>no data</h3>}
          {error && <h3>Not Found</h3>}
 
          {article && <div className='card'>

@@ -2,8 +2,6 @@ import './App.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Home from "./pages/Home"
 import About from './pages/About'
-import Faq from './pages/Faq'
-import Form from './pages/Form'
 import PageNotFound from './pages/PageNotFound'
 import Articles from './pages/Articles/Articles'
 import ArticleDetail from './pages/Articles/ArticleDetail'
